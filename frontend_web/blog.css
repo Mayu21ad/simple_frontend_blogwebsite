@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,600;0,700;1,400&display=swap');
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    scroll-padding-top: 2rem;
+    box-sizing: border-box;
+}
+
+.title {
+    font-size: 3em;
+    width: 100vw;
+    margin-left: 1em;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    background-color: #fefefe;
+    color: #121212;
+}
+
+.form-container {
+    width: 63vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#imageUploadForm {
+    display: flex;
+    justify-content: center;
+    align-items: left;
+    flex-direction: column;
+}
+
+#imagePreview {
+    border: 3px dashed black;
+    height: 60%;
+
+    margin-top: 1em;
+}
+
+.upload-button {
+    width: 10vw;
+    background-color: #2ca7ff;
+    border: none;
+    padding: 0.5em;
+    margin-top: 0.5em;
+    color: white;
+    border-radius: 2px;
+
+}
+
+.container {
+    width: 80vw;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 0.5em;
+}
+
+.column {
+    height: 30vh;
+    background-color: #f3faff;
+    padding: 1.5em;
+    height: 50vh;
+    width: 30vw;
+
+    border: 0.5px solid #85ccff;
+}
+
+.left {
+    border-radius: 20px 0px 0px 20px;
+}
+
+.right {
+    border-radius: 0px 20px 20px 0px;
+}
+
+.submit-button {
+    width: 10vw;
+    background-color: #2ca7ff;
+    border: none;
+    padding: 0.5em;
+    margin-top: 0.5em;
+    color: white;
+    border-radius: 5px;
+    width: 10vw;
+}
+header{
+    display:flex;
+    justify-content: space-between;
+    align-items: top;
+    padding:10px;
+    top:5px;
+    
+}
+.nav-container{
+    display: flex;
+    top:10px;
+    right:10px;
+    gap: 10px;
+    display:flex;
+    top:10px;
+    right:10px;
+
+}
+.login,
+.Signin, 
+.Your-work {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    position: absolute;
+    gap:10px;
+}
+.login {
+    display:flex;
+    justify-content:center;
+    top:10px;
+    right: 10px;
+}
+.Signin{
+    display:flex;
+    justify-content:center;
+    top:10px;
+    right:calc(10px+110px);
+}
+.Your-work{
+    display:flex;
+    justify-content:center;
+    top:10px;
+    left:10px;
+}
+
+

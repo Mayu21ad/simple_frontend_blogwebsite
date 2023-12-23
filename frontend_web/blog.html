@@ -1,0 +1,31 @@
+!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Work</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="blog.css">
+    
+</head>
+<body>
+    <h1 class="title">Blog</h1>
+
+    <div class="form-container">
+        <div class="container">
+            <div class="column left">
+                <h1>Text Area</h1>
+                <textarea id="textArea" rows="13" cols="55"></textarea>
+            </div>
+            <div class="column right">
+                <h1>Image Upload</h1>
+                <form id="imageUploadForm">
+                    <input type="file" id="imageInput" accept="image/*" />
+                    <button class="upload-button" type="submit">Upload</button>
+                </form>
+                <div id="imagePreview"></div>
+            </div>
+        </div>
+
+        <button class="submit-button" type="submit">Send</button>
+    </div>
